@@ -60,7 +60,8 @@ Use when a supplied image needs to be described reproducibly. The workflow does 
 - A single image cannot verify camera body, focal length, movement, or intent.
 - The workflow does not guarantee text rendering, identity consistency, or exact geometry.
 - It does not add absent subjects to an edit unless the request explicitly calls for compositing or regeneration.
-- This preview release has not completed independent external-user validation.
+- The packaged workflow is covered by automated structure, link, privacy-boundary and secret scans.
+- Independent non-owner usability validation is tracked separately and is not implied by the stable version number.
 
 ## Privacy
 
@@ -68,7 +69,6 @@ The files in this repository do not collect telemetry. Your AI client or image p
 
 ## Version
 
-Current package: `v0.1.0-preview`
+Current package: `v1.0.0`
 
-See [`CHANGELOG.md`](CHANGELOG.md), [`NOTICE.md`](NOTICE.md), and [`tests/acceptance-checklist.md`](tests/acceptance-checklist.md).
-
+The repository is licensed under the [MIT License](LICENSE). See [`CHANGELOG.md`](CHANGELOG.md), [`NOTICE.md`](NOTICE.md), [`VALIDATION.md`](VALIDATION.md), and [`tests/acceptance-checklist.md`](tests/acceptance-checklist.md).

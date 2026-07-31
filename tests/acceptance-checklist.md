@@ -27,5 +27,4 @@ Run this checklist before a release.
 
 ## Release status
 
-This checklist is included, but independent external-user validation is still pending for `v0.1.0-preview`.
-
+The automated package checks are required for `v1.0.0`. Independent non-owner usability validation is a separate evidence state recorded in [`../VALIDATION.md`](../VALIDATION.md); it is not required to call the reviewed package stable and must not be claimed before a real non-owner run is recorded.

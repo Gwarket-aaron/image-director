@@ -1,0 +1,19 @@
+name: Package validation
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate public package
+        shell: pwsh
+        run: ./tests/validate-package.ps1

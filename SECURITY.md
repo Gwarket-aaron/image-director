@@ -2,7 +2,7 @@
 
 ## Supported version
 
-Only the latest tagged preview is reviewed.
+Only the latest stable tagged release is supported.
 
 ## Report a problem
 
@@ -16,4 +16,3 @@ Open a GitHub issue without attaching private images, prompts, credentials, or p
 - Do not use the workflow to impersonate a real person or bypass consent.
 
 This package contains Markdown instructions only. It does not execute shell commands, scan directories, or make network requests.
-
