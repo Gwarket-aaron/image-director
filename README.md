@@ -7,6 +7,16 @@ Image Director turns a rough visual idea, brief, reference image, or existing pr
 
 It is designed for people who know what an image needs to do but do not want to begin with photography terminology.
 
+## Evaluate it quickly
+
+| Time | What to inspect | What it shows |
+| --- | --- | --- |
+| 30 seconds | [`examples/social-cover/brief.md`](examples/social-cover/brief.md) → [`output.md`](examples/social-cover/output.md) | How a plain-language request becomes a structured visual specification |
+| 2 minutes | [`SKILL.md`](SKILL.md) | The decision sequence, output modes, and evidence boundaries |
+| 5 minutes | [`VALIDATION.md`](VALIDATION.md) and the passing badge above | What is automated, what was manually checked, and what is not yet independently validated |
+
+To try it yourself, download the [latest release](https://github.com/Gwarket-aaron/image-director/releases/latest) and follow **Install** below.
+
 ## What it produces
 
 - a compact, model-ready prompt
