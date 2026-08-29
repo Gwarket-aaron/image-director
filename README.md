@@ -1,5 +1,8 @@
 # Image Director
 
+[![Package validation](https://github.com/Gwarket-aaron/image-director/actions/workflows/package-validation.yml/badge.svg)](https://github.com/Gwarket-aaron/image-director/actions/workflows/package-validation.yml)
+[![Release](https://img.shields.io/github/v/release/Gwarket-aaron/image-director)](https://github.com/Gwarket-aaron/image-director/releases/latest)
+
 Image Director turns a rough visual idea, brief, reference image, or existing prompt into a still-image specification that can be generated, inspected, and revised.
 
 It is designed for people who know what an image needs to do but do not want to begin with photography terminology.
